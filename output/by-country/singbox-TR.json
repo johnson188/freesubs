@@ -6,16 +6,20 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇹🇷 土耳其 (Turkey) 01 - xiaohe",
-        "🇹🇷 土耳其 (Turkey) 02 - xiaohe"
+        "🇹🇷 土耳其 (Turkey) 01 - fldfh",
+        "🇹🇷 土耳其 (Turkey) 02 - fldfh",
+        "🇹🇷 土耳其 (Turkey) 03 - fldfh",
+        "🇹🇷 土耳其 (Turkey) 04 - fldfh"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇹🇷 土耳其 (Turkey) 01 - xiaohe",
-        "🇹🇷 土耳其 (Turkey) 02 - xiaohe"
+        "🇹🇷 土耳其 (Turkey) 01 - fldfh",
+        "🇹🇷 土耳其 (Turkey) 02 - fldfh",
+        "🇹🇷 土耳其 (Turkey) 03 - fldfh",
+        "🇹🇷 土耳其 (Turkey) 04 - fldfh"
       ],
       "url": "https://www.google.com/generate_204"
     },

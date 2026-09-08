@@ -4,7 +4,7 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇧🇬 BG 01 - xiaohe
+- name: 🇧🇬 BG 01 - fldfh
   type: vless
   server: 94.156.155.27
   port: 443
@@ -16,46 +16,16 @@ proxies:
     public-key: bY0-zlTOPCaEWDMw_BTzuzJW513tl6Hc61n4Z-q1cHE
   servername: www.telekom.de
   client-fingerprint: firefox
-- name: 🇧🇬 BG 02 - xiaohe
+- name: 🇧🇬 BG 02 - fldfh
   type: vless
-  server: 192.145.31.5
-  port: 443
+  server: neth9.lunariai.ru
+  port: 8443
   uuid: 9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 192.145.31.5
-- name: 🇧🇬 BG 03 - xiaohe
-  type: vless
-  server: 192.145.31.5
-  port: 443
-  uuid: 9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 192.145.31.5
-- name: 🇧🇬 BG 04 - xiaohe
-  type: vless
-  server: 192.145.31.5
-  port: 443
-  uuid: 9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 192.145.31.5
-- name: 🇧🇬 BG 05 - xiaohe
+  servername: neth9.lunariai.ru
+- name: 🇧🇬 BG 03 - fldfh
   type: vless
   server: 192.145.31.5
   port: 8443
@@ -69,20 +39,16 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇧🇬 BG 01 - xiaohe
-  - 🇧🇬 BG 02 - xiaohe
-  - 🇧🇬 BG 03 - xiaohe
-  - 🇧🇬 BG 04 - xiaohe
-  - 🇧🇬 BG 05 - xiaohe
+  - 🇧🇬 BG 01 - fldfh
+  - 🇧🇬 BG 02 - fldfh
+  - 🇧🇬 BG 03 - fldfh
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇧🇬 BG 01 - xiaohe
-  - 🇧🇬 BG 02 - xiaohe
-  - 🇧🇬 BG 03 - xiaohe
-  - 🇧🇬 BG 04 - xiaohe
-  - 🇧🇬 BG 05 - xiaohe
+  - 🇧🇬 BG 01 - fldfh
+  - 🇧🇬 BG 02 - fldfh
+  - 🇧🇬 BG 03 - fldfh
 rules:
 - MATCH,PROXIES

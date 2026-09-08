@@ -4,7 +4,16 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇹🇷 土耳其 (Turkey) 01 - xiaohe
+- name: 🇹🇷 土耳其 (Turkey) 01 - fldfh
+  type: vless
+  server: 195.162.69.203
+  port: 8443
+  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 195-162-69-203.sslip.io
+- name: 🇹🇷 土耳其 (Turkey) 02 - fldfh
   type: vless
   server: 151.241.226.201
   port: 2053
@@ -15,8 +24,16 @@ proxies:
   reality-opts:
     public-key: k5COjpopVNGzEuMb457zCrrZegSdBX-d8bg0G6HDsE4
   servername: www.apple.com
-  client-fingerprint: firefox
-- name: 🇹🇷 土耳其 (Turkey) 02 - xiaohe
+  client-fingerprint: random
+- name: 🇹🇷 土耳其 (Turkey) 03 - fldfh
+  type: vless
+  server: 206.1.96.228
+  port: 8082
+  uuid: bfb3f06c-e33f-41ac-b101-012c8325a689
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇹🇷 土耳其 (Turkey) 04 - fldfh
   type: vless
   server: 206.1.96.228
   port: 8082
@@ -29,14 +46,18 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇹🇷 土耳其 (Turkey) 01 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 02 - xiaohe
+  - 🇹🇷 土耳其 (Turkey) 01 - fldfh
+  - 🇹🇷 土耳其 (Turkey) 02 - fldfh
+  - 🇹🇷 土耳其 (Turkey) 03 - fldfh
+  - 🇹🇷 土耳其 (Turkey) 04 - fldfh
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇹🇷 土耳其 (Turkey) 01 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 02 - xiaohe
+  - 🇹🇷 土耳其 (Turkey) 01 - fldfh
+  - 🇹🇷 土耳其 (Turkey) 02 - fldfh
+  - 🇹🇷 土耳其 (Turkey) 03 - fldfh
+  - 🇹🇷 土耳其 (Turkey) 04 - fldfh
 rules:
 - MATCH,PROXIES
