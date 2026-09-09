@@ -6,14 +6,20 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇺🇸 美国 (United States) 01 (家宽) - fldfh"
+        "🇨🇭 CH 01 - fldfh",
+        "🇨🇭 CH 02 - fldfh",
+        "🇨🇭 CH 03 - fldfh",
+        "🇨🇭 CH 04 - fldfh"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇺🇸 美国 (United States) 01 (家宽) - fldfh"
+        "🇨🇭 CH 01 - fldfh",
+        "🇨🇭 CH 02 - fldfh",
+        "🇨🇭 CH 03 - fldfh",
+        "🇨🇭 CH 04 - fldfh"
       ],
       "url": "https://www.google.com/generate_204"
     },
