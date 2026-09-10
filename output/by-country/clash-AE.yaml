@@ -6,33 +6,6 @@ log-level: info
 proxies:
 - name: 🇦🇪 阿联酋 (UAE) 01 - fldfh
   type: vless
-  server: 185.112.249.201
-  port: 8443
-  uuid: 9b18ccef-b9e0-41d1-8990-9d970569e142
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: web-socket.tgdaosheng.ggff.net
-  network: ws
-  ws-opts:
-    path: /proxyip=bpb.yousef.isegaro.comfp=chrome
-    headers:
-      Host: web-socket.tgdaosheng.ggff.net
-- name: 🇦🇪 阿联酋 (UAE) 02 - fldfh
-  type: vless
-  server: 84.235.244.108
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 03 - fldfh
-  type: vless
   server: uae.unixzone.us
   port: 22573
   uuid: 39947382-3212-41c9-bc3a-589574ac8b23
@@ -44,52 +17,18 @@ proxies:
     path: /
     headers:
       Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 04 - fldfh
+- name: 🇦🇪 阿联酋 (UAE) 02 - fldfh
   type: vless
-  server: 84.235.244.108
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  server: 31.58.181.88
+  port: 8443
+  uuid: cc422436-e0e9-4f15-bfe8-db3d816e5527
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 05 - fldfh
-  type: vless
-  server: 84.235.244.108
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 06 - fldfh
-  type: ss
-  server: 188.208.110.58
-  port: 8444
-  cipher: chacha20-ietf-poly1305
-  password: tunnel-astrovpn_official
-  udp: true
-- name: 🇦🇪 阿联酋 (UAE) 07 - fldfh
-  type: vless
-  server: 84.235.244.108
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: uae.unixzone.us
+  reality-opts:
+    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
+  servername: tradingview.com
+  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select
@@ -97,11 +36,6 @@ proxy-groups:
   - AUTO
   - 🇦🇪 阿联酋 (UAE) 01 - fldfh
   - 🇦🇪 阿联酋 (UAE) 02 - fldfh
-  - 🇦🇪 阿联酋 (UAE) 03 - fldfh
-  - 🇦🇪 阿联酋 (UAE) 04 - fldfh
-  - 🇦🇪 阿联酋 (UAE) 05 - fldfh
-  - 🇦🇪 阿联酋 (UAE) 06 - fldfh
-  - 🇦🇪 阿联酋 (UAE) 07 - fldfh
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -109,10 +43,5 @@ proxy-groups:
   proxies:
   - 🇦🇪 阿联酋 (UAE) 01 - fldfh
   - 🇦🇪 阿联酋 (UAE) 02 - fldfh
-  - 🇦🇪 阿联酋 (UAE) 03 - fldfh
-  - 🇦🇪 阿联酋 (UAE) 04 - fldfh
-  - 🇦🇪 阿联酋 (UAE) 05 - fldfh
-  - 🇦🇪 阿联酋 (UAE) 06 - fldfh
-  - 🇦🇪 阿联酋 (UAE) 07 - fldfh
 rules:
 - MATCH,PROXIES
