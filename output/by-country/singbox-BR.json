@@ -6,14 +6,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇵🇭 PH 01 - fldfh"
+        "🇧🇷 BR 01 - fldfh",
+        "🇧🇷 BR 02 - fldfh"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇵🇭 PH 01 - fldfh"
+        "🇧🇷 BR 01 - fldfh",
+        "🇧🇷 BR 02 - fldfh"
       ],
       "url": "https://www.google.com/generate_204"
     },
