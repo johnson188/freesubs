@@ -20,6 +20,13 @@ proxies:
   udp: true
 - name: 🇿🇦 ZA 03 - fldfh
   type: ss
+  server: 20.87.212.20
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: IbtRX4cOSjfd8YoI
+  udp: true
+- name: 🇿🇦 ZA 04 - fldfh
+  type: ss
   server: 139.84.247.164
   port: 8388
   cipher: chacha20-ietf-poly1305
@@ -33,6 +40,7 @@ proxy-groups:
   - 🇿🇦 ZA 01 - fldfh
   - 🇿🇦 ZA 02 - fldfh
   - 🇿🇦 ZA 03 - fldfh
+  - 🇿🇦 ZA 04 - fldfh
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -41,5 +49,6 @@ proxy-groups:
   - 🇿🇦 ZA 01 - fldfh
   - 🇿🇦 ZA 02 - fldfh
   - 🇿🇦 ZA 03 - fldfh
+  - 🇿🇦 ZA 04 - fldfh
 rules:
 - MATCH,PROXIES
