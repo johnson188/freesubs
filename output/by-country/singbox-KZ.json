@@ -6,20 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇰🇿 KZ 01 - fldfh",
-        "🇰🇿 KZ 02 - fldfh",
-        "🇰🇿 KZ 03 - fldfh",
-        "🇰🇿 KZ 04 - fldfh"
+        "🇰🇿 KZ 01 - fldfh"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇰🇿 KZ 01 - fldfh",
-        "🇰🇿 KZ 02 - fldfh",
-        "🇰🇿 KZ 03 - fldfh",
-        "🇰🇿 KZ 04 - fldfh"
+        "🇰🇿 KZ 01 - fldfh"
       ],
       "url": "https://www.google.com/generate_204"
     },
