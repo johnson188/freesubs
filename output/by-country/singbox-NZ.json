@@ -6,20 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇱🇻 LV 01 - fldfh",
-        "🇱🇻 LV 02 - fldfh",
-        "🇱🇻 LV 03 - fldfh",
-        "🇱🇻 LV 04 - fldfh"
+        "🇳🇿 NZ 01 - fldfh"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇱🇻 LV 01 - fldfh",
-        "🇱🇻 LV 02 - fldfh",
-        "🇱🇻 LV 03 - fldfh",
-        "🇱🇻 LV 04 - fldfh"
+        "🇳🇿 NZ 01 - fldfh"
       ],
       "url": "https://www.google.com/generate_204"
     },
