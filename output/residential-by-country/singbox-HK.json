@@ -6,18 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇪 IE 01 - fldfh",
-        "🇮🇪 IE 02 - fldfh",
-        "🇮🇪 IE 03 - fldfh"
+        "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - fldfh"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇪 IE 01 - fldfh",
-        "🇮🇪 IE 02 - fldfh",
-        "🇮🇪 IE 03 - fldfh"
+        "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - fldfh"
       ],
       "url": "https://www.google.com/generate_204"
     },
