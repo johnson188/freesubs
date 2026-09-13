@@ -19,7 +19,7 @@ proxies:
       Host: uae.unixzone.us
 - name: 🇦🇪 阿联酋 (UAE) 02 - fldfh
   type: vless
-  server: uae.unixzone.us
+  server: 84.235.244.108
   port: 22573
   uuid: 39947382-3212-41c9-bc3a-589574ac8b23
   udp: true
@@ -31,66 +31,6 @@ proxies:
     headers:
       Host: uae.unixzone.us
 - name: 🇦🇪 阿联酋 (UAE) 03 - fldfh
-  type: vless
-  server: 31.58.181.88
-  port: 8443
-  uuid: 863ce48d-6b5e-4682-b5d7-0c9b43895841
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
-  servername: tradingview.com
-  client-fingerprint: firefox
-- name: 🇦🇪 阿联酋 (UAE) 04 - fldfh
-  type: vless
-  server: 31.58.181.88
-  port: 8443
-  uuid: 04dc7739-5b33-49c9-bf16-3c6919a6498f
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
-  servername: tradingview.com
-  client-fingerprint: firefox
-- name: 🇦🇪 阿联酋 (UAE) 05 - fldfh
-  type: vless
-  server: 31.58.181.88
-  port: 8443
-  uuid: c4783cc5-aeec-4473-855b-1c98965949dd
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
-  servername: tradingview.com
-  client-fingerprint: firefox
-- name: 🇦🇪 阿联酋 (UAE) 06 - fldfh
-  type: vless
-  server: 31.58.181.88
-  port: 8443
-  uuid: e177b819-cfc2-4c59-bd37-e9cf15bc3bc3
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
-  servername: tradingview.com
-  client-fingerprint: firefox
-- name: 🇦🇪 阿联酋 (UAE) 07 - fldfh
-  type: vless
-  server: 89.125.147.199
-  port: 443
-  uuid: cabd9303-ae32-4d25-86b9-26b312d0f044
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: iQJ8UdFw-lUWa9mXugescYHkmwNH96nuj_z-LAZvfxg
-  servername: maps.apple.com
-  client-fingerprint: chrome
-- name: 🇦🇪 阿联酋 (UAE) 08 - fldfh
   type: vless
   server: uae.unixzone.us
   port: 22573
@@ -111,11 +51,6 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 01 - fldfh
   - 🇦🇪 阿联酋 (UAE) 02 - fldfh
   - 🇦🇪 阿联酋 (UAE) 03 - fldfh
-  - 🇦🇪 阿联酋 (UAE) 04 - fldfh
-  - 🇦🇪 阿联酋 (UAE) 05 - fldfh
-  - 🇦🇪 阿联酋 (UAE) 06 - fldfh
-  - 🇦🇪 阿联酋 (UAE) 07 - fldfh
-  - 🇦🇪 阿联酋 (UAE) 08 - fldfh
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -124,10 +59,5 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 01 - fldfh
   - 🇦🇪 阿联酋 (UAE) 02 - fldfh
   - 🇦🇪 阿联酋 (UAE) 03 - fldfh
-  - 🇦🇪 阿联酋 (UAE) 04 - fldfh
-  - 🇦🇪 阿联酋 (UAE) 05 - fldfh
-  - 🇦🇪 阿联酋 (UAE) 06 - fldfh
-  - 🇦🇪 阿联酋 (UAE) 07 - fldfh
-  - 🇦🇪 阿联酋 (UAE) 08 - fldfh
 rules:
 - MATCH,PROXIES
