@@ -6,19 +6,6 @@ log-level: info
 proxies:
 - name: 🇹🇭 TH 01 - fldfh
   type: vless
-  server: anydesk.com
-  port: 8880
-  uuid: 243ad93d-9732-4e19-9784-8b1a642cff70
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-    headers:
-      Host: fancy-king-6fb5.33-615.workers.dev
-- name: 🇹🇭 TH 02 - fldfh
-  type: vless
   server: 43.133.110.81
   port: 443
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
@@ -31,20 +18,7 @@ proxies:
     path: /?TELEGRAM-MARAMBASHI_MARAMBASHI?ed=512
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🇹🇭 TH 03 - fldfh
-  type: vless
-  server: 172.66.140.62
-  port: 8880
-  uuid: 160ca353-676d-4b7f-a041-0289e388b865
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: proud-cloud-7bdd.208-a52.workers.dev
-- name: 🇹🇭 TH 04 - fldfh
+- name: 🇹🇭 TH 02 - fldfh
   type: vmess
   server: 118.193.57.167
   port: 49667
@@ -66,8 +40,6 @@ proxy-groups:
   - AUTO
   - 🇹🇭 TH 01 - fldfh
   - 🇹🇭 TH 02 - fldfh
-  - 🇹🇭 TH 03 - fldfh
-  - 🇹🇭 TH 04 - fldfh
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -75,7 +47,5 @@ proxy-groups:
   proxies:
   - 🇹🇭 TH 01 - fldfh
   - 🇹🇭 TH 02 - fldfh
-  - 🇹🇭 TH 03 - fldfh
-  - 🇹🇭 TH 04 - fldfh
 rules:
 - MATCH,PROXIES
