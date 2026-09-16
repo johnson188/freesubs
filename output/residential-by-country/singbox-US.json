@@ -6,20 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇫🇮 FI 01 - fldfh",
-        "🇫🇮 FI 02 - fldfh",
-        "🇫🇮 FI 03 - fldfh",
-        "🇫🇮 FI 04 - fldfh"
+        "🇺🇸 美国 (United States) 01 (家宽) - fldfh"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇫🇮 FI 01 - fldfh",
-        "🇫🇮 FI 02 - fldfh",
-        "🇫🇮 FI 03 - fldfh",
-        "🇫🇮 FI 04 - fldfh"
+        "🇺🇸 美国 (United States) 01 (家宽) - fldfh"
       ],
       "url": "https://www.google.com/generate_204"
     },
