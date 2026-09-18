@@ -6,20 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇳 印度 (India) 01 - fldfh",
-        "🇮🇳 印度 (India) 02 - fldfh",
-        "🇮🇳 印度 (India) 03 - fldfh",
-        "🇮🇳 印度 (India) 04 - fldfh"
+        "🇮🇳 印度 (India) 01 - fldfh"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇳 印度 (India) 01 - fldfh",
-        "🇮🇳 印度 (India) 02 - fldfh",
-        "🇮🇳 印度 (India) 03 - fldfh",
-        "🇮🇳 印度 (India) 04 - fldfh"
+        "🇮🇳 印度 (India) 01 - fldfh"
       ],
       "url": "https://www.google.com/generate_204"
     },
