@@ -6,8 +6,8 @@ log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - fldfh
   type: vless
-  server: 172.64.32.108
-  port: 8080
+  server: 172.64.229.170
+  port: 2082
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   tls: false
@@ -19,24 +19,72 @@ proxies:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
 - name: 🇷🇺 俄罗斯 (Russia) 02 - fldfh
   type: ss
-  server: 195.58.48.137
+  server: 195.133.5.102
   port: 10900
   cipher: aes-256-gcm
-  password: 8ad9d72a5571df86
+  password: 895b4b796a357570
   udp: true
 - name: 🇷🇺 俄罗斯 (Russia) 03 - fldfh
   type: vless
-  server: 188.114.97.6
-  port: 80
+  server: lhns3ww2-cxq-gj1vvobkepig4nopkc.hqu4v38hi9iftcp6mzfmx-3bmx.workers.dev
+  port: 443
+  uuid: 38d6b629-64c2-4c31-a10d-26eb3a2a053d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lHNs3ww2-CXQ-Gj1vvOBkEPIg4noPkc.hqu4v38Hi9iFtcp6mZfMX-3bmx.WoRKeRS.dEV
+  network: ws
+  ws-opts:
+    path: /vl/cxl8Wn1ylnsk63nJ0
+    headers:
+      Host: lhns3ww2-cxq-gj1vvobkepig4nopkc.hqu4v38hi9iftcp6mzfmx-3bmx.workers.dev
+- name: 🇷🇺 俄罗斯 (Russia) 04 - fldfh
+  type: vless
+  server: chat.openai.com
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vms.lifetime29.workers.dev
+- name: 🇷🇺 俄罗斯 (Russia) 05 - fldfh
+  type: vless
+  server: 104.21.70.21
+  port: 8080
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /?ed=2560
+    path: /?ed=2560security=tls
     headers:
-      Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇷🇺 俄罗斯 (Russia) 06 - fldfh
+  type: vless
+  server: 46.8.200.91
+  port: 443
+  uuid: b8201bab-fa6c-4f6e-b289-b5da660c6f69
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cf3.rumedia-cdn.com
+  network: ws
+  ws-opts:
+    path: /cdn/v3/live
+    headers:
+      Host: cf3.rumedia-cdn.com
+- name: 🇷🇺 俄罗斯 (Russia) 07 - fldfh
+  type: ss
+  server: 134.0.112.71
+  port: 17517
+  cipher: aes-256-gcm
+  password: 64Kms+G+nD6FlGJjZJfeUNJIGbX/EKrk2o/MH04zApw=
+  udp: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -45,6 +93,10 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 01 - fldfh
   - 🇷🇺 俄罗斯 (Russia) 02 - fldfh
   - 🇷🇺 俄罗斯 (Russia) 03 - fldfh
+  - 🇷🇺 俄罗斯 (Russia) 04 - fldfh
+  - 🇷🇺 俄罗斯 (Russia) 05 - fldfh
+  - 🇷🇺 俄罗斯 (Russia) 06 - fldfh
+  - 🇷🇺 俄罗斯 (Russia) 07 - fldfh
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -53,5 +105,9 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 01 - fldfh
   - 🇷🇺 俄罗斯 (Russia) 02 - fldfh
   - 🇷🇺 俄罗斯 (Russia) 03 - fldfh
+  - 🇷🇺 俄罗斯 (Russia) 04 - fldfh
+  - 🇷🇺 俄罗斯 (Russia) 05 - fldfh
+  - 🇷🇺 俄罗斯 (Russia) 06 - fldfh
+  - 🇷🇺 俄罗斯 (Russia) 07 - fldfh
 rules:
 - MATCH,PROXIES

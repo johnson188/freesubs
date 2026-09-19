@@ -6,6 +6,42 @@ log-level: info
 proxies:
 - name: 🇦🇺 澳大利亚 (Australia) 01 - fldfh
   type: vless
+  server: 34.87.244.111
+  port: 443
+  uuid: 325bc1be-0cb7-4cf7-bd35-a79ded91bbbd
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: fsdIMU2apN1C_NbkL7mHTsBKEfhwbDhgCRcB8ICf03E
+  servername: www.cloudflare.com
+  client-fingerprint: qq
+- name: 🇦🇺 澳大利亚 (Australia) 02 - fldfh
+  type: vless
+  server: 34.87.244.111
+  port: 443
+  uuid: 325bc1be-0cb7-4cf7-bd35-a79ded91bbbd
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: fsdIMU2apN1C_NbkL7mHTsBKEfhwbDhgCRcB8ICf03E
+  servername: www.cloudflare.com
+  client-fingerprint: firefox
+- name: 🇦🇺 澳大利亚 (Australia) 03 - fldfh
+  type: vless
+  server: 34.87.244.111
+  port: 443
+  uuid: 325bc1be-0cb7-4cf7-bd35-a79ded91bbbd
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: fsdIMU2apN1C_NbkL7mHTsBKEfhwbDhgCRcB8ICf03E
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇦🇺 澳大利亚 (Australia) 04 - fldfh
+  type: vless
   server: 152.67.101.72
   port: 23010
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
@@ -18,7 +54,7 @@ proxies:
     path: /
     headers:
       Host: cdn8848.776676.xyz
-- name: 🇦🇺 澳大利亚 (Australia) 02 - fldfh
+- name: 🇦🇺 澳大利亚 (Australia) 05 - fldfh
   type: vless
   server: 103.75.119.126
   port: 2087
@@ -31,7 +67,19 @@ proxies:
     path: /7586c69d3dc9
     headers:
       Host: 103.75.119.126
-- name: 🇦🇺 澳大利亚 (Australia) 03 - fldfh
+- name: 🇦🇺 澳大利亚 (Australia) 06 - fldfh
+  type: vless
+  server: 34.87.244.111
+  port: 443
+  uuid: 325bc1be-0cb7-4cf7-bd35-a79ded91bbbd
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: fsdIMU2apN1C_NbkL7mHTsBKEfhwbDhgCRcB8ICf03E
+  servername: www.cloudflare.com
+  client-fingerprint: safari
+- name: 🇦🇺 澳大利亚 (Australia) 07 - fldfh
   type: vless
   server: 103.75.119.126
   port: 2087
@@ -52,6 +100,10 @@ proxy-groups:
   - 🇦🇺 澳大利亚 (Australia) 01 - fldfh
   - 🇦🇺 澳大利亚 (Australia) 02 - fldfh
   - 🇦🇺 澳大利亚 (Australia) 03 - fldfh
+  - 🇦🇺 澳大利亚 (Australia) 04 - fldfh
+  - 🇦🇺 澳大利亚 (Australia) 05 - fldfh
+  - 🇦🇺 澳大利亚 (Australia) 06 - fldfh
+  - 🇦🇺 澳大利亚 (Australia) 07 - fldfh
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -60,5 +112,9 @@ proxy-groups:
   - 🇦🇺 澳大利亚 (Australia) 01 - fldfh
   - 🇦🇺 澳大利亚 (Australia) 02 - fldfh
   - 🇦🇺 澳大利亚 (Australia) 03 - fldfh
+  - 🇦🇺 澳大利亚 (Australia) 04 - fldfh
+  - 🇦🇺 澳大利亚 (Australia) 05 - fldfh
+  - 🇦🇺 澳大利亚 (Australia) 06 - fldfh
+  - 🇦🇺 澳大利亚 (Australia) 07 - fldfh
 rules:
 - MATCH,PROXIES

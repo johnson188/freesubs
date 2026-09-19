@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇧🇪 BE 01 - fldfh",
+        "🇧🇪 BE 02 - fldfh",
+        "🇧🇪 BE 03 - fldfh",
+        "🇧🇪 BE 04 - fldfh",
+        "🇧🇪 BE 05 - fldfh",
+        "🇧🇪 BE 06 - fldfh",
+        "🇧🇪 BE 07 - fldfh",
+        "🇧🇪 BE 08 - fldfh"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇧🇪 BE 01 - fldfh",
+        "🇧🇪 BE 02 - fldfh",
+        "🇧🇪 BE 03 - fldfh",
+        "🇧🇪 BE 04 - fldfh",
+        "🇧🇪 BE 05 - fldfh",
+        "🇧🇪 BE 06 - fldfh",
+        "🇧🇪 BE 07 - fldfh",
+        "🇧🇪 BE 08 - fldfh"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}
