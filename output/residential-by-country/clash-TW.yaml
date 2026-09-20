@@ -28,15 +28,15 @@ proxies:
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: ''
+  servername: dee2309db4944c248b6d4372c6641e25.oylfmxz.cn
   network: ws
   ws-opts:
     path: ''
     headers:
-      Host: ''
+      Host: dee2309db4944c248b6d4372c6641e25.oylfmxz.cn
 - name: 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - fldfh
   type: vmess
-  server: dee2309db4se3g5sds35g4s3dg.oylfmxz.cn
+  server: dee2309db4se3grs6e8hg4w61sd53g1.oylfmxz.cn
   port: 443
   uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
   alterId: 0
