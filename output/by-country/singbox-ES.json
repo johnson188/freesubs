@@ -6,14 +6,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇪🇸 西班牙 (Spain) 01 - fldfh"
+        "🇪🇸 西班牙 (Spain) 01 - fldfh",
+        "🇪🇸 西班牙 (Spain) 02 - fldfh"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇪🇸 西班牙 (Spain) 01 - fldfh"
+        "🇪🇸 西班牙 (Spain) 01 - fldfh",
+        "🇪🇸 西班牙 (Spain) 02 - fldfh"
       ],
       "url": "https://www.google.com/generate_204"
     },
