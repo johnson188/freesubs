@@ -5,18 +5,65 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - fldfh
-  type: ss
-  server: 46.17.44.112
-  port: 10301
-  cipher: aes-256-gcm
-  password: bdb313adf74c2ede
+  type: vless
+  server: 46.8.200.91
+  port: 443
+  uuid: b8201bab-fa6c-4f6e-b289-b5da660c6f69
   udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cf3.rumedia-cdn.com
+  network: ws
+  ws-opts:
+    path: /cdn/v3/live
+    headers:
+      Host: cf3.rumedia-cdn.com
 - name: 🇷🇺 俄罗斯 (Russia) 02 - fldfh
+  type: vless
+  server: 172.67.209.127
+  port: 8880
+  uuid: 1b3ad465-d37e-48a2-bb53-d7fddfc97b11
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: calm-silence-d4a1.217.workers.dev
+- name: 🇷🇺 俄罗斯 (Russia) 03 - fldfh
+  type: vless
+  server: 172.64.42.85
+  port: 2095
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇷🇺 俄罗斯 (Russia) 04 - fldfh
+  type: vless
+  server: 172.67.220.34
+  port: 443
+  uuid: ef23616d-8a9d-4b22-b2f5-9bda864de179
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: INDEX.Arcane509.Workers.DEV
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: index.arcane509.workers.dev
+- name: 🇷🇺 俄罗斯 (Russia) 05 - fldfh
   type: ss
-  server: 130.49.189.158
-  port: 43558
+  server: 62.113.41.228
+  port: 2055
   cipher: chacha20-ietf-poly1305
-  password: 5dLyPJpSV+QyXFRj+S0dt6xFKHxtcXEkRO/TzJGzryU=
+  password: 7nzDcoQQxUYU35N5ngbSAg
   udp: true
 proxy-groups:
 - name: PROXIES
@@ -25,6 +72,9 @@ proxy-groups:
   - AUTO
   - 🇷🇺 俄罗斯 (Russia) 01 - fldfh
   - 🇷🇺 俄罗斯 (Russia) 02 - fldfh
+  - 🇷🇺 俄罗斯 (Russia) 03 - fldfh
+  - 🇷🇺 俄罗斯 (Russia) 04 - fldfh
+  - 🇷🇺 俄罗斯 (Russia) 05 - fldfh
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -32,5 +82,8 @@ proxy-groups:
   proxies:
   - 🇷🇺 俄罗斯 (Russia) 01 - fldfh
   - 🇷🇺 俄罗斯 (Russia) 02 - fldfh
+  - 🇷🇺 俄罗斯 (Russia) 03 - fldfh
+  - 🇷🇺 俄罗斯 (Russia) 04 - fldfh
+  - 🇷🇺 俄罗斯 (Russia) 05 - fldfh
 rules:
 - MATCH,PROXIES
