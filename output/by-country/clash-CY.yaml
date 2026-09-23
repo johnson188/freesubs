@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇨🇾 CY 01 - fldfh
   type: vless
-  server: 195.26.229.131
+  server: 195.26.229.148
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
@@ -15,24 +15,26 @@ proxies:
   servername: xi.tbv.ccwu.cc
   network: ws
   ws-opts:
-    path: /proxyip
+    path: /
     headers:
       Host: xi.tbv.ccwu.cc
 - name: 🇨🇾 CY 02 - fldfh
   type: vless
-  server: 194.76.154.31
-  port: 40443
-  uuid: 9f0baff8-bdee-4de9-9515-bcc4932b41fa
+  server: 195.26.229.127
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
-  servername: deepl.com
-  client-fingerprint: chrome
+  servername: xi.tbv.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: xi.tbv.ccwu.cc
 - name: 🇨🇾 CY 03 - fldfh
   type: vless
-  server: 195.26.229.156
+  server: 195.26.229.235
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
@@ -60,7 +62,7 @@ proxies:
       Host: xi.tbv.ccwu.cc
 - name: 🇨🇾 CY 05 - fldfh
   type: vless
-  server: 195.26.229.148
+  server: 195.26.229.32
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
@@ -74,7 +76,7 @@ proxies:
       Host: xi.tbv.ccwu.cc
 - name: 🇨🇾 CY 06 - fldfh
   type: vless
-  server: 195.26.229.235
+  server: 195.26.229.86
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
@@ -83,12 +85,12 @@ proxies:
   servername: xi.tbv.ccwu.cc
   network: ws
   ws-opts:
-    path: /
+    path: /proxyip
     headers:
       Host: xi.tbv.ccwu.cc
 - name: 🇨🇾 CY 07 - fldfh
   type: vless
-  server: 195.26.229.157
+  server: 195.26.229.86
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
@@ -102,7 +104,7 @@ proxies:
       Host: xi.tbv.ccwu.cc
 - name: 🇨🇾 CY 08 - fldfh
   type: vless
-  server: 195.26.229.156
+  server: 195.26.229.157
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
@@ -111,7 +113,7 @@ proxies:
   servername: xi.tbv.ccwu.cc
   network: ws
   ws-opts:
-    path: /
+    path: /proxyip=us.xiabibi.cf
     headers:
       Host: xi.tbv.ccwu.cc
 - name: 🇨🇾 CY 09 - fldfh
@@ -130,7 +132,7 @@ proxies:
       Host: xi.tbv.ccwu.cc
 - name: 🇨🇾 CY 10 - fldfh
   type: vless
-  server: 195.26.229.86
+  server: 195.26.229.222
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
@@ -144,19 +146,21 @@ proxies:
       Host: xi.tbv.ccwu.cc
 - name: 🇨🇾 CY 11 - fldfh
   type: vless
-  server: 194.76.154.31
-  port: 40443
-  uuid: 9f0baff8-bdee-4de9-9515-bcc4932b41fa
+  server: 195.26.229.156
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
-  servername: deepl.com
-  client-fingerprint: chrome
+  servername: xi.tbv.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: xi.tbv.ccwu.cc
 - name: 🇨🇾 CY 12 - fldfh
   type: vless
-  server: 195.26.229.235
+  server: 195.26.229.157
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
@@ -170,7 +174,7 @@ proxies:
       Host: xi.tbv.ccwu.cc
 - name: 🇨🇾 CY 13 - fldfh
   type: vless
-  server: 195.26.229.127
+  server: 195.26.229.148
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
@@ -184,7 +188,7 @@ proxies:
       Host: xi.tbv.ccwu.cc
 - name: 🇨🇾 CY 14 - fldfh
   type: vless
-  server: 195.26.229.131
+  server: 195.26.229.120
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
@@ -199,200 +203,6 @@ proxies:
 - name: 🇨🇾 CY 15 - fldfh
   type: vless
   server: 195.26.229.131
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇨🇾 CY 16 - fldfh
-  type: vless
-  server: 195.26.229.222
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇨🇾 CY 17 - fldfh
-  type: vless
-  server: 195.26.229.32
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇨🇾 CY 18 - fldfh
-  type: vless
-  server: 195.26.229.86
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇨🇾 CY 19 - fldfh
-  type: vless
-  server: 194.76.154.31
-  port: 40443
-  uuid: 9f0baff8-bdee-4de9-9515-bcc4932b41fa
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
-  servername: deepl.com
-  client-fingerprint: chrome
-- name: 🇨🇾 CY 20 - fldfh
-  type: vless
-  server: 195.26.229.157
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇨🇾 CY 21 - fldfh
-  type: vless
-  server: 195.26.229.222
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇨🇾 CY 22 - fldfh
-  type: vless
-  server: 195.26.229.127
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇨🇾 CY 23 - fldfh
-  type: vless
-  server: 195.26.229.86
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /proxyip
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇨🇾 CY 24 - fldfh
-  type: vless
-  server: 195.26.229.148
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇨🇾 CY 25 - fldfh
-  type: vless
-  server: 195.26.229.148
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇨🇾 CY 26 - fldfh
-  type: vless
-  server: 195.26.229.157
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇨🇾 CY 27 - fldfh
-  type: vless
-  server: 195.26.229.235
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇨🇾 CY 28 - fldfh
-  type: vless
-  server: 195.26.229.120
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇨🇾 CY 29 - fldfh
-  type: vless
-  server: 195.26.229.156
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
@@ -424,20 +234,6 @@ proxy-groups:
   - 🇨🇾 CY 13 - fldfh
   - 🇨🇾 CY 14 - fldfh
   - 🇨🇾 CY 15 - fldfh
-  - 🇨🇾 CY 16 - fldfh
-  - 🇨🇾 CY 17 - fldfh
-  - 🇨🇾 CY 18 - fldfh
-  - 🇨🇾 CY 19 - fldfh
-  - 🇨🇾 CY 20 - fldfh
-  - 🇨🇾 CY 21 - fldfh
-  - 🇨🇾 CY 22 - fldfh
-  - 🇨🇾 CY 23 - fldfh
-  - 🇨🇾 CY 24 - fldfh
-  - 🇨🇾 CY 25 - fldfh
-  - 🇨🇾 CY 26 - fldfh
-  - 🇨🇾 CY 27 - fldfh
-  - 🇨🇾 CY 28 - fldfh
-  - 🇨🇾 CY 29 - fldfh
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -458,19 +254,5 @@ proxy-groups:
   - 🇨🇾 CY 13 - fldfh
   - 🇨🇾 CY 14 - fldfh
   - 🇨🇾 CY 15 - fldfh
-  - 🇨🇾 CY 16 - fldfh
-  - 🇨🇾 CY 17 - fldfh
-  - 🇨🇾 CY 18 - fldfh
-  - 🇨🇾 CY 19 - fldfh
-  - 🇨🇾 CY 20 - fldfh
-  - 🇨🇾 CY 21 - fldfh
-  - 🇨🇾 CY 22 - fldfh
-  - 🇨🇾 CY 23 - fldfh
-  - 🇨🇾 CY 24 - fldfh
-  - 🇨🇾 CY 25 - fldfh
-  - 🇨🇾 CY 26 - fldfh
-  - 🇨🇾 CY 27 - fldfh
-  - 🇨🇾 CY 28 - fldfh
-  - 🇨🇾 CY 29 - fldfh
 rules:
 - MATCH,PROXIES
