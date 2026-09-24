@@ -4,30 +4,30 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇷🇴 RO 01 - fldfh
+- name: 🇰🇷 韩国 (South Korea) 01 (家宽) - fldfh
   type: vless
-  server: 167.82.101.251
-  port: 80
-  uuid: 0e9f7d2a-2f92-475e-b484-e79568a8a1a2
+  server: 172.64.88.251
+  port: 8880
+  uuid: 87a5d3eb-afd4-4193-9787-c54ef7c26c8c
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: /pyip=ProxyIP.KR.CMLiussss.net
     headers:
-      Host: Mankiamtr.global.ssl.fastly.net
+      Host: patient-cake-39c7.44-e7a.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇷🇴 RO 01 - fldfh
+  - 🇰🇷 韩国 (South Korea) 01 (家宽) - fldfh
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇷🇴 RO 01 - fldfh
+  - 🇰🇷 韩国 (South Korea) 01 (家宽) - fldfh
 rules:
 - MATCH,PROXIES

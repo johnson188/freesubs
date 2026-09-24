@@ -15,7 +15,7 @@ proxies:
   reality-opts:
     public-key: Euq607wb-KZNjbuOMQ1h646C3dm_Q-ntd7yxZ52jj0U
   servername: www.cloudflare.com
-  client-fingerprint: safari
+  client-fingerprint: chrome
 - name: 🇹🇭 TH 02 - fldfh
   type: vless
   server: 34.15.162.1
@@ -27,7 +27,7 @@ proxies:
   reality-opts:
     public-key: LklWoqMQz_TWiuLCUNRwHAKX1adVRSGMhtbo98fbDxw
   servername: www.cloudflare.com
-  client-fingerprint: firefox
+  client-fingerprint: ios
 - name: 🇹🇭 TH 03 - fldfh
   type: vless
   server: 34.15.162.1
@@ -39,7 +39,7 @@ proxies:
   reality-opts:
     public-key: LklWoqMQz_TWiuLCUNRwHAKX1adVRSGMhtbo98fbDxw
   servername: www.cloudflare.com
-  client-fingerprint: edge
+  client-fingerprint: firefox
 - name: 🇹🇭 TH 04 - fldfh
   type: vless
   server: 34.15.176.240
@@ -51,7 +51,7 @@ proxies:
   reality-opts:
     public-key: Euq607wb-KZNjbuOMQ1h646C3dm_Q-ntd7yxZ52jj0U
   servername: www.cloudflare.com
-  client-fingerprint: firefox
+  client-fingerprint: chrome
 - name: 🇹🇭 TH 05 - fldfh
   type: vless
   server: 34.15.162.1
@@ -63,31 +63,32 @@ proxies:
   reality-opts:
     public-key: LklWoqMQz_TWiuLCUNRwHAKX1adVRSGMhtbo98fbDxw
   servername: www.cloudflare.com
-  client-fingerprint: chrome
+  client-fingerprint: edge
 - name: 🇹🇭 TH 06 - fldfh
   type: vless
-  server: 34.15.162.1
-  port: 443
-  uuid: 2b1d0c2a-9c80-4b72-892e-93d0500b9210
+  server: 103.86.49.57
+  port: 80
+  uuid: 3c52e091-6714-4915-949f-2149fe69951b
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  reality-opts:
-    public-key: LklWoqMQz_TWiuLCUNRwHAKX1adVRSGMhtbo98fbDxw
-  servername: www.cloudflare.com
-  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: aIs.SpEeDtEsT.nEt
 - name: 🇹🇭 TH 07 - fldfh
   type: vless
-  server: 34.15.162.1
+  server: 34.15.176.240
   port: 443
-  uuid: 2b1d0c2a-9c80-4b72-892e-93d0500b9210
+  uuid: 742dc674-a491-4a42-a551-b3ea6dd2f447
   udp: true
   tls: true
   skip-cert-verify: true
   reality-opts:
-    public-key: LklWoqMQz_TWiuLCUNRwHAKX1adVRSGMhtbo98fbDxw
+    public-key: Euq607wb-KZNjbuOMQ1h646C3dm_Q-ntd7yxZ52jj0U
   servername: www.cloudflare.com
-  client-fingerprint: safari
+  client-fingerprint: chrome
 - name: 🇹🇭 TH 08 - fldfh
   type: vless
   server: 34.15.162.1
@@ -102,16 +103,16 @@ proxies:
   client-fingerprint: chrome
 - name: 🇹🇭 TH 09 - fldfh
   type: vless
-  server: 34.15.176.240
+  server: 34.15.162.1
   port: 443
-  uuid: 742dc674-a491-4a42-a551-b3ea6dd2f447
+  uuid: 2b1d0c2a-9c80-4b72-892e-93d0500b9210
   udp: true
   tls: true
   skip-cert-verify: true
   reality-opts:
-    public-key: Euq607wb-KZNjbuOMQ1h646C3dm_Q-ntd7yxZ52jj0U
+    public-key: LklWoqMQz_TWiuLCUNRwHAKX1adVRSGMhtbo98fbDxw
   servername: www.cloudflare.com
-  client-fingerprint: chrome
+  client-fingerprint: qq
 - name: 🇹🇭 TH 10 - fldfh
   type: vless
   server: 34.15.162.1
@@ -135,7 +136,7 @@ proxies:
   reality-opts:
     public-key: LklWoqMQz_TWiuLCUNRwHAKX1adVRSGMhtbo98fbDxw
   servername: www.cloudflare.com
-  client-fingerprint: ios
+  client-fingerprint: chrome
 - name: 🇹🇭 TH 12 - fldfh
   type: vless
   server: 34.15.162.1
@@ -147,31 +148,7 @@ proxies:
   reality-opts:
     public-key: LklWoqMQz_TWiuLCUNRwHAKX1adVRSGMhtbo98fbDxw
   servername: www.cloudflare.com
-  client-fingerprint: qq
-- name: 🇹🇭 TH 13 - fldfh
-  type: vless
-  server: 34.15.176.240
-  port: 443
-  uuid: 742dc674-a491-4a42-a551-b3ea6dd2f447
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: Euq607wb-KZNjbuOMQ1h646C3dm_Q-ntd7yxZ52jj0U
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇹🇭 TH 14 - fldfh
-  type: vless
-  server: 34.15.176.240
-  port: 443
-  uuid: 742dc674-a491-4a42-a551-b3ea6dd2f447
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: Euq607wb-KZNjbuOMQ1h646C3dm_Q-ntd7yxZ52jj0U
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
+  client-fingerprint: safari
 proxy-groups:
 - name: PROXIES
   type: select
@@ -189,8 +166,6 @@ proxy-groups:
   - 🇹🇭 TH 10 - fldfh
   - 🇹🇭 TH 11 - fldfh
   - 🇹🇭 TH 12 - fldfh
-  - 🇹🇭 TH 13 - fldfh
-  - 🇹🇭 TH 14 - fldfh
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -208,7 +183,5 @@ proxy-groups:
   - 🇹🇭 TH 10 - fldfh
   - 🇹🇭 TH 11 - fldfh
   - 🇹🇭 TH 12 - fldfh
-  - 🇹🇭 TH 13 - fldfh
-  - 🇹🇭 TH 14 - fldfh
 rules:
 - MATCH,PROXIES
