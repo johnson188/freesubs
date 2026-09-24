@@ -6,16 +6,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇿🇦 ZA 01 - fldfh",
-        "🇿🇦 ZA 02 - fldfh"
+        "🇹🇷 土耳其 (Turkey) 01 - fldfh",
+        "🇹🇷 土耳其 (Turkey) 02 - fldfh"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇿🇦 ZA 01 - fldfh",
-        "🇿🇦 ZA 02 - fldfh"
+        "🇹🇷 土耳其 (Turkey) 01 - fldfh",
+        "🇹🇷 土耳其 (Turkey) 02 - fldfh"
       ],
       "url": "https://www.google.com/generate_204"
     },
