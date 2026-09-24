@@ -4,21 +4,21 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇧🇷 BR 01 - fldfh
+- name: 🇲🇾 MY 01 - fldfh
   type: vmess
-  server: 172.233.14.17
-  port: 22324
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  server: 47.250.135.244
+  port: 10000
+  uuid: aedc66b8-99d7-4a21-8310-61870e7f870d
   alterId: 0
   cipher: auto
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇧🇷 BR 02 - fldfh
+- name: 🇲🇾 MY 02 - fldfh
   type: vmess
-  server: 172.233.14.17
-  port: 22324
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  server: 47.250.135.244
+  port: 10000
+  uuid: aedc66b8-99d7-4a21-8310-61870e7f870d
   alterId: 0
   cipher: auto
   udp: true
@@ -29,14 +29,14 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇧🇷 BR 01 - fldfh
-  - 🇧🇷 BR 02 - fldfh
+  - 🇲🇾 MY 01 - fldfh
+  - 🇲🇾 MY 02 - fldfh
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇧🇷 BR 01 - fldfh
-  - 🇧🇷 BR 02 - fldfh
+  - 🇲🇾 MY 01 - fldfh
+  - 🇲🇾 MY 02 - fldfh
 rules:
 - MATCH,PROXIES
