@@ -6,14 +6,36 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇰🇷 韩国 (South Korea) 01 - fldfh"
+        "🇰🇷 韩国 (South Korea) 01 - fldfh",
+        "🇰🇷 韩国 (South Korea) 02 - fldfh",
+        "🇰🇷 韩国 (South Korea) 03 - fldfh",
+        "🇰🇷 韩国 (South Korea) 04 - fldfh",
+        "🇰🇷 韩国 (South Korea) 05 - fldfh",
+        "🇰🇷 韩国 (South Korea) 06 - fldfh",
+        "🇰🇷 韩国 (South Korea) 07 - fldfh",
+        "🇰🇷 韩国 (South Korea) 08 - fldfh",
+        "🇰🇷 韩国 (South Korea) 09 - fldfh",
+        "🇰🇷 韩国 (South Korea) 10 - fldfh",
+        "🇰🇷 韩国 (South Korea) 11 - fldfh",
+        "🇰🇷 韩国 (South Korea) 12 - fldfh"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇰🇷 韩国 (South Korea) 01 - fldfh"
+        "🇰🇷 韩国 (South Korea) 01 - fldfh",
+        "🇰🇷 韩国 (South Korea) 02 - fldfh",
+        "🇰🇷 韩国 (South Korea) 03 - fldfh",
+        "🇰🇷 韩国 (South Korea) 04 - fldfh",
+        "🇰🇷 韩国 (South Korea) 05 - fldfh",
+        "🇰🇷 韩国 (South Korea) 06 - fldfh",
+        "🇰🇷 韩国 (South Korea) 07 - fldfh",
+        "🇰🇷 韩国 (South Korea) 08 - fldfh",
+        "🇰🇷 韩国 (South Korea) 09 - fldfh",
+        "🇰🇷 韩国 (South Korea) 10 - fldfh",
+        "🇰🇷 韩国 (South Korea) 11 - fldfh",
+        "🇰🇷 韩国 (South Korea) 12 - fldfh"
       ],
       "url": "https://www.google.com/generate_204"
     },
