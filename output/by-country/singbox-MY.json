@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇲🇾 MY 01 - fldfh",
+        "🇲🇾 MY 02 - fldfh",
+        "🇲🇾 MY 03 - fldfh",
+        "🇲🇾 MY 04 - fldfh",
+        "🇲🇾 MY 05 - fldfh",
+        "🇲🇾 MY 06 - fldfh",
+        "🇲🇾 MY 07 - fldfh",
+        "🇲🇾 MY 08 - fldfh",
+        "🇲🇾 MY 09 - fldfh",
+        "🇲🇾 MY 10 - fldfh",
+        "🇲🇾 MY 11 - fldfh",
+        "🇲🇾 MY 12 - fldfh",
+        "🇲🇾 MY 13 - fldfh",
+        "🇲🇾 MY 14 - fldfh",
+        "🇲🇾 MY 15 - fldfh",
+        "🇲🇾 MY 16 - fldfh"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇲🇾 MY 01 - fldfh",
+        "🇲🇾 MY 02 - fldfh",
+        "🇲🇾 MY 03 - fldfh",
+        "🇲🇾 MY 04 - fldfh",
+        "🇲🇾 MY 05 - fldfh",
+        "🇲🇾 MY 06 - fldfh",
+        "🇲🇾 MY 07 - fldfh",
+        "🇲🇾 MY 08 - fldfh",
+        "🇲🇾 MY 09 - fldfh",
+        "🇲🇾 MY 10 - fldfh",
+        "🇲🇾 MY 11 - fldfh",
+        "🇲🇾 MY 12 - fldfh",
+        "🇲🇾 MY 13 - fldfh",
+        "🇲🇾 MY 14 - fldfh",
+        "🇲🇾 MY 15 - fldfh",
+        "🇲🇾 MY 16 - fldfh"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}

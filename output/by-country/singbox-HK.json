@@ -6,20 +6,18 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇸🇪 SE 01 - fldfh",
-        "🇸🇪 SE 02 - fldfh",
-        "🇸🇪 SE 03 - fldfh",
-        "🇸🇪 SE 04 - fldfh"
+        "🇭🇰 中国香港 (Hong Kong) 01 - fldfh",
+        "🇭🇰 中国香港 (Hong Kong) 02 - fldfh",
+        "🇭🇰 中国香港 (Hong Kong) 03 - fldfh"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇸🇪 SE 01 - fldfh",
-        "🇸🇪 SE 02 - fldfh",
-        "🇸🇪 SE 03 - fldfh",
-        "🇸🇪 SE 04 - fldfh"
+        "🇭🇰 中国香港 (Hong Kong) 01 - fldfh",
+        "🇭🇰 中国香港 (Hong Kong) 02 - fldfh",
+        "🇭🇰 中国香港 (Hong Kong) 03 - fldfh"
       ],
       "url": "https://www.google.com/generate_204"
     },
