@@ -5,6 +5,13 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇾 CY 01 - fldfh
+  type: ss
+  server: 132.243.255.3
+  port: 40440
+  cipher: aes-256-gcm
+  password: 78235e7dc55e9ad1
+  udp: true
+- name: 🇨🇾 CY 02 - fldfh
   type: vless
   server: 194.76.154.31
   port: 40443
@@ -16,17 +23,173 @@ proxies:
     public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
   servername: deepl.com
   client-fingerprint: chrome
+- name: 🇨🇾 CY 03 - fldfh
+  type: vless
+  server: 194.76.154.31
+  port: 40443
+  uuid: 9f0baff8-bdee-4de9-9515-bcc4932b41fa
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
+  servername: deepl.com
+  client-fingerprint: qq
+- name: 🇨🇾 CY 04 - fldfh
+  type: vless
+  server: 194.76.154.31
+  port: 40443
+  uuid: 9f0baff8-bdee-4de9-9515-bcc4932b41fa
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
+  servername: deepl.com
+  client-fingerprint: chrome
+- name: 🇨🇾 CY 05 - fldfh
+  type: vless
+  server: 194.76.154.31
+  port: 40443
+  uuid: 9f0baff8-bdee-4de9-9515-bcc4932b41fa
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
+  servername: deepl.com
+  client-fingerprint: qq
+- name: 🇨🇾 CY 06 - fldfh
+  type: vless
+  server: 194.76.154.31
+  port: 40443
+  uuid: 9f0baff8-bdee-4de9-9515-bcc4932b41fa
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
+  servername: deepl.com
+  client-fingerprint: chrome
+- name: 🇨🇾 CY 07 - fldfh
+  type: vless
+  server: 194.76.154.31
+  port: 40443
+  uuid: 9f0baff8-bdee-4de9-9515-bcc4932b41fa
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
+  servername: deepl.com
+  client-fingerprint: qq
+- name: 🇨🇾 CY 08 - fldfh
+  type: vless
+  server: 194.76.154.31
+  port: 40443
+  uuid: 9f0baff8-bdee-4de9-9515-bcc4932b41fa
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
+  servername: deepl.com
+  client-fingerprint: random
+- name: 🇨🇾 CY 09 - fldfh
+  type: vless
+  server: 194.76.154.31
+  port: 40443
+  uuid: 9f0baff8-bdee-4de9-9515-bcc4932b41fa
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
+  servername: deepl.com
+  client-fingerprint: chrome
+- name: 🇨🇾 CY 10 - fldfh
+  type: vless
+  server: 194.76.154.31
+  port: 40443
+  uuid: 9f0baff8-bdee-4de9-9515-bcc4932b41fa
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
+  servername: deepl.com
+  client-fingerprint: chrome
+- name: 🇨🇾 CY 11 - fldfh
+  type: vless
+  server: 194.76.154.31
+  port: 40443
+  uuid: 9f0baff8-bdee-4de9-9515-bcc4932b41fa
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
+  servername: deepl.com
+  client-fingerprint: firefox
+- name: 🇨🇾 CY 12 - fldfh
+  type: vless
+  server: 194.76.154.31
+  port: 40443
+  uuid: 9f0baff8-bdee-4de9-9515-bcc4932b41fa
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
+  servername: deepl.com
+  client-fingerprint: qq
+- name: 🇨🇾 CY 13 - fldfh
+  type: vless
+  server: 194.76.154.31
+  port: 40443
+  uuid: 9f0baff8-bdee-4de9-9515-bcc4932b41fa
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
+  servername: deepl.com
+  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇨🇾 CY 01 - fldfh
+  - 🇨🇾 CY 02 - fldfh
+  - 🇨🇾 CY 03 - fldfh
+  - 🇨🇾 CY 04 - fldfh
+  - 🇨🇾 CY 05 - fldfh
+  - 🇨🇾 CY 06 - fldfh
+  - 🇨🇾 CY 07 - fldfh
+  - 🇨🇾 CY 08 - fldfh
+  - 🇨🇾 CY 09 - fldfh
+  - 🇨🇾 CY 10 - fldfh
+  - 🇨🇾 CY 11 - fldfh
+  - 🇨🇾 CY 12 - fldfh
+  - 🇨🇾 CY 13 - fldfh
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇨🇾 CY 01 - fldfh
+  - 🇨🇾 CY 02 - fldfh
+  - 🇨🇾 CY 03 - fldfh
+  - 🇨🇾 CY 04 - fldfh
+  - 🇨🇾 CY 05 - fldfh
+  - 🇨🇾 CY 06 - fldfh
+  - 🇨🇾 CY 07 - fldfh
+  - 🇨🇾 CY 08 - fldfh
+  - 🇨🇾 CY 09 - fldfh
+  - 🇨🇾 CY 10 - fldfh
+  - 🇨🇾 CY 11 - fldfh
+  - 🇨🇾 CY 12 - fldfh
+  - 🇨🇾 CY 13 - fldfh
 rules:
 - MATCH,PROXIES
