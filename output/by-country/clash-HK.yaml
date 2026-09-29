@@ -5,34 +5,22 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇭🇰 中国香港 (Hong Kong) 01 - fldfh
-  type: vless
-  server: 103.71.23.247
+  type: vmess
+  server: 47.76.44.32
   port: 443
-  uuid: 0250424c-ae75-4b6b-890f-3fe26fae36c3
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: hk.152568.xyz
+  servername: 93ucrn4i0PffUAbk.v.3dns.vip
   network: ws
   ws-opts:
-    path: /cdn/packages/runtime-core.tar.gz
+    path: /ws-vmess
     headers:
-      Host: hk.152568.xyz
+      Host: 93ucrn4i0PffUAbk.v.3dns.vip
 - name: 🇭🇰 中国香港 (Hong Kong) 02 - fldfh
-  type: vless
-  server: 141.11.90.160
-  port: 443
-  uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: shephe.dpdns.org
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: shephe.dpdns.org
-- name: 🇭🇰 中国香港 (Hong Kong) 03 - fldfh
   type: vmess
   server: 194.99.79.26
   port: 443
@@ -48,6 +36,20 @@ proxies:
     path: /linkvws
     headers:
       Host: aksai.org
+- name: 🇭🇰 中国香港 (Hong Kong) 03 - fldfh
+  type: vless
+  server: 85.149.211.28
+  port: 8443
+  uuid: 0250424c-ae75-4b6b-890f-3fe26fae36c3
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: hk.152568.xyz
+  network: ws
+  ws-opts:
+    path: /cdn/packages/runtime-core.tar.gz
+    headers:
+      Host: hk.152568.xyz
 - name: 🇭🇰 中国香港 (Hong Kong) 04 - fldfh
   type: vless
   server: 85.149.211.28
@@ -64,6 +66,50 @@ proxies:
       Host: hk.152568.xyz
 - name: 🇭🇰 中国香港 (Hong Kong) 05 - fldfh
   type: vless
+  server: 103.71.23.247
+  port: 443
+  uuid: 0250424c-ae75-4b6b-890f-3fe26fae36c3
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: hk.152568.xyz
+  network: ws
+  ws-opts:
+    path: /cdn/packages/runtime-core.tar.gz
+    headers:
+      Host: hk.152568.xyz
+- name: 🇭🇰 中国香港 (Hong Kong) 06 - fldfh
+  type: vless
+  server: 103.71.23.247
+  port: 443
+  uuid: 0250424c-ae75-4b6b-890f-3fe26fae36c3
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: hk.152568.xyz
+  network: ws
+  ws-opts:
+    path: /cdn/packages/runtime-core.tar.gz
+    headers:
+      Host: hk.152568.xyz
+- name: 🇭🇰 中国香港 (Hong Kong) 07 - fldfh
+  type: vmess
+  server: aksai.org
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: aksai.org
+  network: ws
+  ws-opts:
+    path: /linkvws
+    headers:
+      Host: aksai.org
+- name: 🇭🇰 中国香港 (Hong Kong) 08 - fldfh
+  type: vless
   server: 207.57.135.199
   port: 8443
   uuid: 0250424c-ae75-4b6b-890f-3fe26fae36c3
@@ -76,22 +122,6 @@ proxies:
     path: /cdn/packages/runtime-core.tar.gz
     headers:
       Host: hk.152568.xyz
-- name: 🇭🇰 中国香港 (Hong Kong) 06 - fldfh
-  type: vmess
-  server: 194.99.79.26
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ''
-  network: ws
-  ws-opts:
-    path: /linkvws
-    headers:
-      Host: ''
 proxy-groups:
 - name: PROXIES
   type: select
@@ -103,6 +133,8 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 04 - fldfh
   - 🇭🇰 中国香港 (Hong Kong) 05 - fldfh
   - 🇭🇰 中国香港 (Hong Kong) 06 - fldfh
+  - 🇭🇰 中国香港 (Hong Kong) 07 - fldfh
+  - 🇭🇰 中国香港 (Hong Kong) 08 - fldfh
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -114,5 +146,7 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 04 - fldfh
   - 🇭🇰 中国香港 (Hong Kong) 05 - fldfh
   - 🇭🇰 中国香港 (Hong Kong) 06 - fldfh
+  - 🇭🇰 中国香港 (Hong Kong) 07 - fldfh
+  - 🇭🇰 中国香港 (Hong Kong) 08 - fldfh
 rules:
 - MATCH,PROXIES
