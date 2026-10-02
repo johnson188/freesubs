@@ -6,14 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇸 IS 01 - fldfh"
+        "🇱🇻 LV 01 - fldfh"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇸 IS 01 - fldfh"
+        "🇱🇻 LV 01 - fldfh"
       ],
       "url": "https://www.google.com/generate_204"
     },
