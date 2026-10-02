@@ -6,18 +6,18 @@ log-level: info
 proxies:
 - name: 🇺🇸 美国 (United States) 01 (家宽) - fldfh
   type: vless
-  server: 104.21.19.76
-  port: 2096
-  uuid: fee1da7e-a258-4456-8e5e-8ecf6518ed12
+  server: 154.17.228.81
+  port: 59686
+  uuid: 88ee0e1e-a2a2-477e-88ce-4875c058aeba
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: ez-82c7e7.aBoBaBA.WorkeRS.dEv
+  servername: 123.714541.xyz
   network: ws
   ws-opts:
-    path: /eyJqdW5rIjoiemxGMEFDU1VDRyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0
+    path: /Ra-vl
     headers:
-      Host: ez-82c7e7.abobaba.workers.dev
+      Host: 123.714541.xyz
 proxy-groups:
 - name: PROXIES
   type: select
