@@ -6,14 +6,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇲🇽 MX 01 - fldfh"
+        "🇲🇾 MY 01 - fldfh",
+        "🇲🇾 MY 02 - fldfh"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇲🇽 MX 01 - fldfh"
+        "🇲🇾 MY 01 - fldfh",
+        "🇲🇾 MY 02 - fldfh"
       ],
       "url": "https://www.google.com/generate_204"
     },
