@@ -6,16 +6,18 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇧🇾 BY 01 - fldfh",
-        "🇧🇾 BY 02 - fldfh"
+        "🇦🇺 澳大利亚 (Australia) 01 - fldfh",
+        "🇦🇺 澳大利亚 (Australia) 02 - fldfh",
+        "🇦🇺 澳大利亚 (Australia) 03 - fldfh"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇧🇾 BY 01 - fldfh",
-        "🇧🇾 BY 02 - fldfh"
+        "🇦🇺 澳大利亚 (Australia) 01 - fldfh",
+        "🇦🇺 澳大利亚 (Australia) 02 - fldfh",
+        "🇦🇺 澳大利亚 (Australia) 03 - fldfh"
       ],
       "url": "https://www.google.com/generate_204"
     },
