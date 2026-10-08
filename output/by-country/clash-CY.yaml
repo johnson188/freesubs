@@ -15,7 +15,7 @@ proxies:
   reality-opts:
     public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
   servername: deepl.com
-  client-fingerprint: firefox
+  client-fingerprint: chrome
 - name: 🇨🇾 CY 02 - fldfh
   type: vless
   server: 194.76.154.31
@@ -63,7 +63,7 @@ proxies:
   reality-opts:
     public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
   servername: deepl.com
-  client-fingerprint: firefox
+  client-fingerprint: qq
 - name: 🇨🇾 CY 06 - fldfh
   type: vless
   server: 194.76.154.31
@@ -87,8 +87,68 @@ proxies:
   reality-opts:
     public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
   servername: deepl.com
-  client-fingerprint: firefox
+  client-fingerprint: random
 - name: 🇨🇾 CY 08 - fldfh
+  type: vless
+  server: 194.76.154.31
+  port: 40443
+  uuid: 9f0baff8-bdee-4de9-9515-bcc4932b41fa
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
+  servername: deepl.com
+  client-fingerprint: chrome
+- name: 🇨🇾 CY 09 - fldfh
+  type: vless
+  server: 194.76.154.31
+  port: 40443
+  uuid: 9f0baff8-bdee-4de9-9515-bcc4932b41fa
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
+  servername: deepl.com
+  client-fingerprint: firefox
+- name: 🇨🇾 CY 10 - fldfh
+  type: vless
+  server: 194.76.154.31
+  port: 40443
+  uuid: 9f0baff8-bdee-4de9-9515-bcc4932b41fa
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
+  servername: deepl.com
+  client-fingerprint: firefox
+- name: 🇨🇾 CY 11 - fldfh
+  type: vless
+  server: 194.76.154.31
+  port: 40443
+  uuid: 9f0baff8-bdee-4de9-9515-bcc4932b41fa
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
+  servername: deepl.com
+  client-fingerprint: chrome
+- name: 🇨🇾 CY 12 - fldfh
+  type: vless
+  server: 194.76.154.31
+  port: 40443
+  uuid: 9f0baff8-bdee-4de9-9515-bcc4932b41fa
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
+  servername: deepl.com
+  client-fingerprint: firefox
+- name: 🇨🇾 CY 13 - fldfh
   type: vless
   server: 194.76.154.31
   port: 40443
@@ -113,6 +173,11 @@ proxy-groups:
   - 🇨🇾 CY 06 - fldfh
   - 🇨🇾 CY 07 - fldfh
   - 🇨🇾 CY 08 - fldfh
+  - 🇨🇾 CY 09 - fldfh
+  - 🇨🇾 CY 10 - fldfh
+  - 🇨🇾 CY 11 - fldfh
+  - 🇨🇾 CY 12 - fldfh
+  - 🇨🇾 CY 13 - fldfh
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -126,5 +191,10 @@ proxy-groups:
   - 🇨🇾 CY 06 - fldfh
   - 🇨🇾 CY 07 - fldfh
   - 🇨🇾 CY 08 - fldfh
+  - 🇨🇾 CY 09 - fldfh
+  - 🇨🇾 CY 10 - fldfh
+  - 🇨🇾 CY 11 - fldfh
+  - 🇨🇾 CY 12 - fldfh
+  - 🇨🇾 CY 13 - fldfh
 rules:
 - MATCH,PROXIES
