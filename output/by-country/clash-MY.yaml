@@ -19,7 +19,7 @@ proxies:
       Host: platform103.halalkhor.info
 - name: 🇲🇾 MY 02 - fldfh
   type: vless
-  server: platform117.golnamakcert.top
+  server: platform103.golnamakcert.top
   port: 80
   uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
   udp: true
@@ -27,10 +27,24 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /platform117
+    path: /platform103
     headers:
-      Host: platform117.halalkhor.info
+      Host: platform103.halalkhor.info
 - name: 🇲🇾 MY 03 - fldfh
+  type: vless
+  server: 216.173.67.59
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ccc.010304.xyz
+- name: 🇲🇾 MY 04 - fldfh
   type: vless
   server: platform118.golnamakcert.top
   port: 80
@@ -43,7 +57,20 @@ proxies:
     path: /platform118
     headers:
       Host: platform118.halalkhor.info
-- name: 🇲🇾 MY 04 - fldfh
+- name: 🇲🇾 MY 05 - fldfh
+  type: vless
+  server: platform117.golnamakcert.top
+  port: 80
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /platform117
+    headers:
+      Host: platform117.halalkhor.info
+- name: 🇲🇾 MY 06 - fldfh
   type: vless
   server: platform102.golnamakcert.top
   port: 80
@@ -56,7 +83,7 @@ proxies:
     path: /platform102
     headers:
       Host: platform102.halalkhor.info
-- name: 🇲🇾 MY 05 - fldfh
+- name: 🇲🇾 MY 07 - fldfh
   type: vless
   server: platform101.golnamakcert.top
   port: 80
@@ -69,33 +96,6 @@ proxies:
     path: /platform101
     headers:
       Host: platform101.halalkhor.info
-- name: 🇲🇾 MY 06 - fldfh
-  type: vless
-  server: platform103.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform103
-    headers:
-      Host: platform103.halalkhor.info
-- name: 🇲🇾 MY 07 - fldfh
-  type: vless
-  server: 216.173.67.59
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: ccc.010304.xyz
 - name: 🇲🇾 MY 08 - fldfh
   type: vless
   server: 216.173.67.59
@@ -107,7 +107,7 @@ proxies:
   servername: ccc.010304.xyz
   network: ws
   ws-opts:
-    path: /
+    path: /fp=chrome
     headers:
       Host: ccc.010304.xyz
 proxy-groups:
