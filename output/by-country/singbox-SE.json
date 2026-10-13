@@ -7,7 +7,9 @@
       "outbounds": [
         "auto",
         "🇸🇪 SE 01 - fldfh",
-        "🇸🇪 SE 02 - fldfh"
+        "🇸🇪 SE 02 - fldfh",
+        "🇸🇪 SE 03 - fldfh",
+        "🇸🇪 SE 04 - fldfh"
       ]
     },
     {
@@ -15,7 +17,9 @@
       "tag": "auto",
       "outbounds": [
         "🇸🇪 SE 01 - fldfh",
-        "🇸🇪 SE 02 - fldfh"
+        "🇸🇪 SE 02 - fldfh",
+        "🇸🇪 SE 03 - fldfh",
+        "🇸🇪 SE 04 - fldfh"
       ],
       "url": "https://www.google.com/generate_204"
     },
