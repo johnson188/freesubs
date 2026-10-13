@@ -5,41 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇮🇪 IE 01 - fldfh
-  type: ss
-  server: 20.234.97.18
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: K5sEvZiKmens104B
-  udp: true
-- name: 🇮🇪 IE 02 - fldfh
-  type: ss
-  server: 20.234.97.18
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: K5sEvZiKmens104B
-  udp: true
-- name: 🇮🇪 IE 03 - fldfh
-  type: ss
-  server: 20.234.97.18
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: GayYa2V7pUbJBfKu
-  udp: true
-- name: 🇮🇪 IE 04 - fldfh
-  type: ss
-  server: 20.234.97.18
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: K5sEvZiKmens104B
-  udp: true
-- name: 🇮🇪 IE 05 - fldfh
-  type: ss
-  server: 20.234.97.18
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: GayYa2V7pUbJBfKu
-  udp: true
-- name: 🇮🇪 IE 06 - fldfh
   type: vless
   server: 23.95.225.10
   port: 8443
@@ -50,7 +15,7 @@ proxies:
   servername: ccc.010304.xyz
   network: ws
   ws-opts:
-    path: /fp=chrome
+    path: /
     headers:
       Host: ccc.010304.xyz
 proxy-groups:
@@ -59,21 +24,11 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇮🇪 IE 01 - fldfh
-  - 🇮🇪 IE 02 - fldfh
-  - 🇮🇪 IE 03 - fldfh
-  - 🇮🇪 IE 04 - fldfh
-  - 🇮🇪 IE 05 - fldfh
-  - 🇮🇪 IE 06 - fldfh
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇮🇪 IE 01 - fldfh
-  - 🇮🇪 IE 02 - fldfh
-  - 🇮🇪 IE 03 - fldfh
-  - 🇮🇪 IE 04 - fldfh
-  - 🇮🇪 IE 05 - fldfh
-  - 🇮🇪 IE 06 - fldfh
 rules:
 - MATCH,PROXIES
