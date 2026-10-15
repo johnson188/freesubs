@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇮🇪 IE 01 - fldfh",
+        "🇮🇪 IE 02 - fldfh",
+        "🇮🇪 IE 03 - fldfh",
+        "🇮🇪 IE 04 - fldfh",
+        "🇮🇪 IE 05 - fldfh",
+        "🇮🇪 IE 06 - fldfh",
+        "🇮🇪 IE 07 - fldfh",
+        "🇮🇪 IE 08 - fldfh",
+        "🇮🇪 IE 09 - fldfh",
+        "🇮🇪 IE 10 - fldfh",
+        "🇮🇪 IE 11 - fldfh",
+        "🇮🇪 IE 12 - fldfh",
+        "🇮🇪 IE 13 - fldfh",
+        "🇮🇪 IE 14 - fldfh",
+        "🇮🇪 IE 15 - fldfh",
+        "🇮🇪 IE 16 - fldfh",
+        "🇮🇪 IE 17 - fldfh",
+        "🇮🇪 IE 18 - fldfh",
+        "🇮🇪 IE 19 - fldfh",
+        "🇮🇪 IE 20 - fldfh",
+        "🇮🇪 IE 21 - fldfh",
+        "🇮🇪 IE 22 - fldfh",
+        "🇮🇪 IE 23 - fldfh"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇮🇪 IE 01 - fldfh",
+        "🇮🇪 IE 02 - fldfh",
+        "🇮🇪 IE 03 - fldfh",
+        "🇮🇪 IE 04 - fldfh",
+        "🇮🇪 IE 05 - fldfh",
+        "🇮🇪 IE 06 - fldfh",
+        "🇮🇪 IE 07 - fldfh",
+        "🇮🇪 IE 08 - fldfh",
+        "🇮🇪 IE 09 - fldfh",
+        "🇮🇪 IE 10 - fldfh",
+        "🇮🇪 IE 11 - fldfh",
+        "🇮🇪 IE 12 - fldfh",
+        "🇮🇪 IE 13 - fldfh",
+        "🇮🇪 IE 14 - fldfh",
+        "🇮🇪 IE 15 - fldfh",
+        "🇮🇪 IE 16 - fldfh",
+        "🇮🇪 IE 17 - fldfh",
+        "🇮🇪 IE 18 - fldfh",
+        "🇮🇪 IE 19 - fldfh",
+        "🇮🇪 IE 20 - fldfh",
+        "🇮🇪 IE 21 - fldfh",
+        "🇮🇪 IE 22 - fldfh",
+        "🇮🇪 IE 23 - fldfh"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}
