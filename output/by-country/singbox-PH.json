@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇵🇭 PH 01 - fldfh",
+        "🇵🇭 PH 02 - fldfh",
+        "🇵🇭 PH 03 - fldfh",
+        "🇵🇭 PH 04 - fldfh",
+        "🇵🇭 PH 05 - fldfh",
+        "🇵🇭 PH 06 - fldfh",
+        "🇵🇭 PH 07 - fldfh",
+        "🇵🇭 PH 08 - fldfh",
+        "🇵🇭 PH 09 - fldfh",
+        "🇵🇭 PH 10 - fldfh",
+        "🇵🇭 PH 11 - fldfh"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇵🇭 PH 01 - fldfh",
+        "🇵🇭 PH 02 - fldfh",
+        "🇵🇭 PH 03 - fldfh",
+        "🇵🇭 PH 04 - fldfh",
+        "🇵🇭 PH 05 - fldfh",
+        "🇵🇭 PH 06 - fldfh",
+        "🇵🇭 PH 07 - fldfh",
+        "🇵🇭 PH 08 - fldfh",
+        "🇵🇭 PH 09 - fldfh",
+        "🇵🇭 PH 10 - fldfh",
+        "🇵🇭 PH 11 - fldfh"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}
