@@ -5,15 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - fldfh
-  type: vless
-  server: 78.159.246.179
-  port: 2053
-  uuid: 95a608b6-bff1-4e10-bb61-0a39f221bb7d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: randomquaint.net
-- name: 🇷🇺 俄罗斯 (Russia) 02 - fldfh
   type: vmess
   server: 158.160.180.165
   port: 24212
@@ -30,13 +21,11 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇷🇺 俄罗斯 (Russia) 01 - fldfh
-  - 🇷🇺 俄罗斯 (Russia) 02 - fldfh
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇷🇺 俄罗斯 (Russia) 01 - fldfh
-  - 🇷🇺 俄罗斯 (Russia) 02 - fldfh
 rules:
 - MATCH,PROXIES
