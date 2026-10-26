@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇷🇴 RO 01 - fldfh",
+        "🇷🇴 RO 02 - fldfh",
+        "🇷🇴 RO 03 - fldfh",
+        "🇷🇴 RO 04 - fldfh",
+        "🇷🇴 RO 05 - fldfh"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇷🇴 RO 01 - fldfh",
+        "🇷🇴 RO 02 - fldfh",
+        "🇷🇴 RO 03 - fldfh",
+        "🇷🇴 RO 04 - fldfh",
+        "🇷🇴 RO 05 - fldfh"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}
