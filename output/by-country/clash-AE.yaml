@@ -6,19 +6,32 @@ log-level: info
 proxies:
 - name: 🇦🇪 阿联酋 (UAE) 01 - fldfh
   type: vless
-  server: 95.174.68.188
-  port: 14430
-  uuid: 965ffbbe-c6b6-4d5f-8dea-6d8abc55d9c0
+  server: 84.235.244.108
+  port: 22573
+  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /vless
+    path: /
     headers:
-      Host: 95.174.68.188
+      Host: uae.unixzone.us
 - name: 🇦🇪 阿联酋 (UAE) 02 - fldfh
   type: vless
+  server: 95.174.68.188
+  port: 14430
+  uuid: 965ffbbe-c6b6-4d5f-8dea-6d8abc55d9c0
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: 95.174.68.188
+- name: 🇦🇪 阿联酋 (UAE) 03 - fldfh
+  type: vless
   server: uae.unixzone.us
   port: 22573
   uuid: 39947382-3212-41c9-bc3a-589574ac8b23
@@ -30,7 +43,7 @@ proxies:
     path: /
     headers:
       Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 03 - fldfh
+- name: 🇦🇪 阿联酋 (UAE) 04 - fldfh
   type: vless
   server: 95.174.68.188
   port: 14430
@@ -43,32 +56,19 @@ proxies:
     path: /vless
     headers:
       Host: 95.174.68.188
-- name: 🇦🇪 阿联酋 (UAE) 04 - fldfh
-  type: vless
-  server: uae.unixzone.us
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: uae.unixzone.us
 - name: 🇦🇪 阿联酋 (UAE) 05 - fldfh
   type: vless
-  server: uae.unixzone.us
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  server: 95.174.68.188
+  port: 14430
+  uuid: 965ffbbe-c6b6-4d5f-8dea-6d8abc55d9c0
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: /vless
     headers:
-      Host: uae.unixzone.us
+      Host: 95.174.68.188
 - name: 🇦🇪 阿联酋 (UAE) 06 - fldfh
   type: vless
   server: 95.174.68.188
@@ -84,18 +84,33 @@ proxies:
       Host: 95.174.68.188
 - name: 🇦🇪 阿联酋 (UAE) 07 - fldfh
   type: vless
-  server: 95.174.68.188
-  port: 14430
-  uuid: 965ffbbe-c6b6-4d5f-8dea-6d8abc55d9c0
+  server: 188.114.96.198
+  port: 443
+  uuid: b15f187e-9b34-437c-8243-8651a8ada76c
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: tepar-k4j9.jounet.workers.dev
   network: ws
   ws-opts:
-    path: /vless
+    path: /stream/DEVCOP/8651a8ada76c/loc-1
     headers:
-      Host: 95.174.68.188
+      Host: tepar-k4j9.jounet.workers.dev
 - name: 🇦🇪 阿联酋 (UAE) 08 - fldfh
+  type: vless
+  server: 23.27.20.142
+  port: 48537
+  uuid: ed79c2d4-5558-428f-87f5-af4abc97a16d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
+- name: 🇦🇪 阿联酋 (UAE) 09 - fldfh
   type: vless
   server: 95.174.68.188
   port: 14430
@@ -121,6 +136,7 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 06 - fldfh
   - 🇦🇪 阿联酋 (UAE) 07 - fldfh
   - 🇦🇪 阿联酋 (UAE) 08 - fldfh
+  - 🇦🇪 阿联酋 (UAE) 09 - fldfh
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -134,5 +150,6 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 06 - fldfh
   - 🇦🇪 阿联酋 (UAE) 07 - fldfh
   - 🇦🇪 阿联酋 (UAE) 08 - fldfh
+  - 🇦🇪 阿联酋 (UAE) 09 - fldfh
 rules:
 - MATCH,PROXIES
