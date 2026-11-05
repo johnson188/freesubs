@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - fldfh
   type: vless
-  server: 104.24.0.1
+  server: 188.114.98.0
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
@@ -20,7 +20,7 @@ proxies:
       Host: jp3.yohototo.top
 - name: 🌐 其他地区 (Other) 02 - fldfh
   type: vless
-  server: 188.114.97.6
+  server: 104.21.6.186
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
@@ -34,21 +34,21 @@ proxies:
       Host: jp3.yohototo.top
 - name: 🌐 其他地区 (Other) 03 - fldfh
   type: vless
-  server: 104.17.50.227
+  server: 104.16.222.106
   port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  uuid: 50414e45-4c5f-5a45-5553-cacd03f0143e
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: jp3.yohototo.top
+  servername: yazxg0egut9s.ezaccess113f260.workers.dev
   network: ws
   ws-opts:
-    path: /tyxyws
+    path: /stream/PANEL_ZEUS/cacd03f0143e
     headers:
-      Host: jp3.yohototo.top
+      Host: yazxg0egut9s.ezaccess113f260.workers.dev
 - name: 🌐 其他地区 (Other) 04 - fldfh
   type: vless
-  server: 104.16.10.48
+  server: 172.67.217.240
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
@@ -62,7 +62,7 @@ proxies:
       Host: jp3.yohototo.top
 - name: 🌐 其他地区 (Other) 05 - fldfh
   type: vless
-  server: 104.19.48.107
+  server: 104.19.164.155
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
@@ -90,7 +90,7 @@ proxies:
       Host: jp3.yohototo.top
 - name: 🌐 其他地区 (Other) 07 - fldfh
   type: vless
-  server: 172.67.217.240
+  server: 104.17.50.53
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
@@ -104,119 +104,7 @@ proxies:
       Host: jp3.yohototo.top
 - name: 🌐 其他地区 (Other) 08 - fldfh
   type: vless
-  server: 104.21.34.106
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 09 - fldfh
-  type: vless
-  server: 104.21.0.87
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 10 - fldfh
-  type: vless
-  server: 104.16.10.56
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 11 - fldfh
-  type: vless
-  server: 104.17.50.53
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 12 - fldfh
-  type: vless
-  server: 162.159.254.3
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 13 - fldfh
-  type: vless
-  server: 104.19.33.25
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 14 - fldfh
-  type: vless
   server: 104.19.164.155
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 15 - fldfh
-  type: vless
-  server: 104.21.0.87
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 16 - fldfh
-  type: vless
-  server: 104.16.10.135
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
@@ -241,14 +129,6 @@ proxy-groups:
   - 🌐 其他地区 (Other) 06 - fldfh
   - 🌐 其他地区 (Other) 07 - fldfh
   - 🌐 其他地区 (Other) 08 - fldfh
-  - 🌐 其他地区 (Other) 09 - fldfh
-  - 🌐 其他地区 (Other) 10 - fldfh
-  - 🌐 其他地区 (Other) 11 - fldfh
-  - 🌐 其他地区 (Other) 12 - fldfh
-  - 🌐 其他地区 (Other) 13 - fldfh
-  - 🌐 其他地区 (Other) 14 - fldfh
-  - 🌐 其他地区 (Other) 15 - fldfh
-  - 🌐 其他地区 (Other) 16 - fldfh
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -262,13 +142,5 @@ proxy-groups:
   - 🌐 其他地区 (Other) 06 - fldfh
   - 🌐 其他地区 (Other) 07 - fldfh
   - 🌐 其他地区 (Other) 08 - fldfh
-  - 🌐 其他地区 (Other) 09 - fldfh
-  - 🌐 其他地区 (Other) 10 - fldfh
-  - 🌐 其他地区 (Other) 11 - fldfh
-  - 🌐 其他地区 (Other) 12 - fldfh
-  - 🌐 其他地区 (Other) 13 - fldfh
-  - 🌐 其他地区 (Other) 14 - fldfh
-  - 🌐 其他地区 (Other) 15 - fldfh
-  - 🌐 其他地区 (Other) 16 - fldfh
 rules:
 - MATCH,PROXIES
