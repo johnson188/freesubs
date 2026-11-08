@@ -6,16 +6,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇸 IS 01 - fldfh",
-        "🇮🇸 IS 02 - fldfh"
+        "🇱🇰 LK 01 - fldfh",
+        "🇱🇰 LK 02 - fldfh"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇸 IS 01 - fldfh",
-        "🇮🇸 IS 02 - fldfh"
+        "🇱🇰 LK 01 - fldfh",
+        "🇱🇰 LK 02 - fldfh"
       ],
       "url": "https://www.google.com/generate_204"
     },
