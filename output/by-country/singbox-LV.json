@@ -6,16 +6,18 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇸🇨 SC 01 - fldfh",
-        "🇸🇨 SC 02 - fldfh"
+        "🇱🇻 LV 01 - fldfh",
+        "🇱🇻 LV 02 - fldfh",
+        "🇱🇻 LV 03 - fldfh"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇸🇨 SC 01 - fldfh",
-        "🇸🇨 SC 02 - fldfh"
+        "🇱🇻 LV 01 - fldfh",
+        "🇱🇻 LV 02 - fldfh",
+        "🇱🇻 LV 03 - fldfh"
       ],
       "url": "https://www.google.com/generate_204"
     },
