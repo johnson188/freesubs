@@ -4,31 +4,31 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇸🇨 SC 01 - fldfh
+- name: 🇨🇿 CZ 01 - fldfh
   type: vless
-  server: 45.130.125.151
-  port: 443
-  uuid: eaf76557-2219-4799-8171-d7020adfefd0
+  server: 188.137.178.174
+  port: 8443
+  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: fancy-mouse-6aff.wixit71180.workers.dev
+  servername: fs.qicai99.com
   network: ws
   ws-opts:
-    path: /ws
+    path: /fp=chrome
     headers:
-      Host: fancy-mouse-6aff.wixit71180.workers.dev
+      Host: fs.qicai99.com
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇸🇨 SC 01 - fldfh
+  - 🇨🇿 CZ 01 - fldfh
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇸🇨 SC 01 - fldfh
+  - 🇨🇿 CZ 01 - fldfh
 rules:
 - MATCH,PROXIES
