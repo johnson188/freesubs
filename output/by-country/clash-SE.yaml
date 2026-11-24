@@ -14,7 +14,7 @@ proxies:
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: xmfhlpy.com
+  servername: ''
 - name: 🇸🇪 SE 02 - fldfh
   type: vless
   server: 5.178.109.174
@@ -29,6 +29,17 @@ proxies:
     headers:
       Host: 5.178.109.174
 - name: 🇸🇪 SE 03 - fldfh
+  type: vmess
+  server: 138.199.55.230
+  port: 1270
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ''
+- name: 🇸🇪 SE 04 - fldfh
   type: ss
   server: 138.199.55.243
   port: 19999
@@ -43,6 +54,7 @@ proxy-groups:
   - 🇸🇪 SE 01 - fldfh
   - 🇸🇪 SE 02 - fldfh
   - 🇸🇪 SE 03 - fldfh
+  - 🇸🇪 SE 04 - fldfh
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -51,5 +63,6 @@ proxy-groups:
   - 🇸🇪 SE 01 - fldfh
   - 🇸🇪 SE 02 - fldfh
   - 🇸🇪 SE 03 - fldfh
+  - 🇸🇪 SE 04 - fldfh
 rules:
 - MATCH,PROXIES
