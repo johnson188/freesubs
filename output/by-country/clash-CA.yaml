@@ -5,18 +5,15 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇦 加拿大 (Canada) 01 - fldfh
-  type: vmess
-  server: 23.162.200.198
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
+  type: ss
+  server: 192.99.151.230
+  port: 8388
+  cipher: aes-256-gcm
+  password: itzvpn@321
   udp: true
-  tls: false
-  skip-cert-verify: true
 - name: 🇨🇦 加拿大 (Canada) 02 - fldfh
   type: vmess
-  server: 23.162.200.198
+  server: 134.195.196.211
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -25,8 +22,22 @@ proxies:
   tls: false
   skip-cert-verify: true
 - name: 🇨🇦 加拿大 (Canada) 03 - fldfh
+  type: vless
+  server: 148.113.196.75
+  port: 8443
+  uuid: 08f96221-9b7b-4e6f-8ffe-aee8b9c9b504
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ov-canada1.09vpn.com
+  network: ws
+  ws-opts:
+    path: /vless/
+    headers:
+      Host: 148.113.196.75
+- name: 🇨🇦 加拿大 (Canada) 04 - fldfh
   type: vmess
-  server: 134.195.196.211
+  server: 23.162.200.198
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -34,16 +45,9 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇨🇦 加拿大 (Canada) 04 - fldfh
-  type: ss
-  server: 51.222.136.236
-  port: 8882
-  cipher: aes-256-gcm
-  password: kDWvXYZoTBcGkC4
-  udp: true
 - name: 🇨🇦 加拿大 (Canada) 05 - fldfh
   type: vmess
-  server: 134.195.196.211
+  server: 23.162.200.198
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -52,36 +56,48 @@ proxies:
   tls: false
   skip-cert-verify: true
 - name: 🇨🇦 加拿大 (Canada) 06 - fldfh
-  type: ss
-  server: 51.79.49.116
-  port: 8882
-  cipher: aes-256-gcm
-  password: kDWvXYZoTBcGkC4
-  udp: true
-- name: 🇨🇦 加拿大 (Canada) 07 - fldfh
-  type: ss
-  server: 51.222.141.125
-  port: 445
-  cipher: aes-256-gcm
-  password: zDNVedRFPQexG9v
-  udp: true
-- name: 🇨🇦 加拿大 (Canada) 08 - fldfh
-  type: ss
-  server: 51.222.12.127
-  port: 445
-  cipher: aes-256-gcm
-  password: zDNVedRFPQexG9v
-  udp: true
-- name: 🇨🇦 加拿大 (Canada) 09 - fldfh
-  type: ss
-  server: 51.222.12.127
-  port: 445
-  cipher: aes-256-gcm
-  password: zDNVedRFPQexG9v
-  udp: true
-- name: 🇨🇦 加拿大 (Canada) 10 - fldfh
   type: vmess
   server: 23.162.200.198
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇨🇦 加拿大 (Canada) 07 - fldfh
+  type: vmess
+  server: 134.195.196.211
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇨🇦 加拿大 (Canada) 08 - fldfh
+  type: vmess
+  server: 23.162.200.198
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇨🇦 加拿大 (Canada) 09 - fldfh
+  type: vmess
+  server: 23.162.200.198
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇨🇦 加拿大 (Canada) 10 - fldfh
+  type: vmess
+  server: 134.195.196.211
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -91,31 +107,25 @@ proxies:
   skip-cert-verify: true
 - name: 🇨🇦 加拿大 (Canada) 11 - fldfh
   type: ss
-  server: 184.107.106.77
-  port: 8388
+  server: 51.222.12.127
+  port: 445
   cipher: aes-256-gcm
-  password: itzvpn@321
+  password: zDNVedRFPQexG9v
   udp: true
 - name: 🇨🇦 加拿大 (Canada) 12 - fldfh
-  type: vmess
-  server: 134.195.196.211
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
+  type: ss
+  server: 51.222.12.127
+  port: 445
+  cipher: aes-256-gcm
+  password: zDNVedRFPQexG9v
   udp: true
-  tls: false
-  skip-cert-verify: true
 - name: 🇨🇦 加拿大 (Canada) 13 - fldfh
-  type: vmess
-  server: 23.162.200.198
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
+  type: ss
+  server: 51.222.141.125
+  port: 445
+  cipher: aes-256-gcm
+  password: zDNVedRFPQexG9v
   udp: true
-  tls: false
-  skip-cert-verify: true
 - name: 🇨🇦 加拿大 (Canada) 14 - fldfh
   type: vmess
   server: 134.195.196.211
@@ -127,20 +137,16 @@ proxies:
   tls: false
   skip-cert-verify: true
 - name: 🇨🇦 加拿大 (Canada) 15 - fldfh
-  type: ss
-  server: 149.22.95.183
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
+  type: vmess
+  server: 23.162.200.198
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
   udp: true
+  tls: false
+  skip-cert-verify: true
 - name: 🇨🇦 加拿大 (Canada) 16 - fldfh
-  type: ss
-  server: 51.79.85.185
-  port: 8118
-  cipher: aes-256-gcm
-  password: cdBIDV42DCwnfIN
-  udp: true
-- name: 🇨🇦 加拿大 (Canada) 17 - fldfh
   type: vmess
   server: 134.195.196.211
   port: 18000
@@ -150,9 +156,18 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
+- name: 🇨🇦 加拿大 (Canada) 17 - fldfh
+  type: vless
+  server: 66.163.113.9
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: kuruish.org
 - name: 🇨🇦 加拿大 (Canada) 18 - fldfh
   type: vmess
-  server: 134.195.196.211
+  server: 23.162.200.198
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -172,7 +187,7 @@ proxies:
   skip-cert-verify: true
 - name: 🇨🇦 加拿大 (Canada) 20 - fldfh
   type: vmess
-  server: 23.162.200.198
+  server: 134.195.196.211
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -251,32 +266,22 @@ proxies:
   tls: false
   skip-cert-verify: true
 - name: 🇨🇦 加拿大 (Canada) 28 - fldfh
-  type: vmess
-  server: 134.195.196.211
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
+  type: ss
+  server: 184.107.106.77
+  port: 8388
+  cipher: aes-256-gcm
+  password: itzvpn@321
   udp: true
-  tls: false
-  skip-cert-verify: true
 - name: 🇨🇦 加拿大 (Canada) 29 - fldfh
-  type: vless
-  server: 148.113.196.75
-  port: 8443
-  uuid: 08f96221-9b7b-4e6f-8ffe-aee8b9c9b504
+  type: ss
+  server: 51.79.85.185
+  port: 8118
+  cipher: aes-256-gcm
+  password: cdBIDV42DCwnfIN
   udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ov-canada1.09vpn.com
-  network: ws
-  ws-opts:
-    path: /vless/
-    headers:
-      Host: 148.113.196.75
 - name: 🇨🇦 加拿大 (Canada) 30 - fldfh
   type: vmess
-  server: 23.162.200.198
+  server: 134.195.196.211
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -295,15 +300,19 @@ proxies:
   tls: false
   skip-cert-verify: true
 - name: 🇨🇦 加拿大 (Canada) 32 - fldfh
-  type: vmess
-  server: 134.195.196.211
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
+  type: vless
+  server: 172.67.219.189
+  port: 443
+  uuid: d027b485-4e11-4485-9d0f-2ef1f1129eff
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: cdn4.salamfox.ir
+  network: ws
+  ws-opts:
+    path: /d027b485-4e11-4485-9d0f-2ef1f1129eff
+    headers:
+      Host: cdn4.salamfox.ir
 - name: 🇨🇦 加拿大 (Canada) 33 - fldfh
   type: vmess
   server: 23.162.200.198
@@ -315,15 +324,18 @@ proxies:
   tls: false
   skip-cert-verify: true
 - name: 🇨🇦 加拿大 (Canada) 34 - fldfh
-  type: ss
-  server: 51.222.200.165
-  port: 5000
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-  udp: true
-- name: 🇨🇦 加拿大 (Canada) 35 - fldfh
   type: vmess
   server: 23.162.200.198
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇨🇦 加拿大 (Canada) 35 - fldfh
+  type: vmess
+  server: 134.195.196.211
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -342,8 +354,15 @@ proxies:
   tls: false
   skip-cert-verify: true
 - name: 🇨🇦 加拿大 (Canada) 37 - fldfh
+  type: ss
+  server: 51.222.136.236
+  port: 8882
+  cipher: aes-256-gcm
+  password: kDWvXYZoTBcGkC4
+  udp: true
+- name: 🇨🇦 加拿大 (Canada) 38 - fldfh
   type: vmess
-  server: 23.162.200.198
+  server: 134.195.196.211
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -351,13 +370,6 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇨🇦 加拿大 (Canada) 38 - fldfh
-  type: ss
-  server: 51.79.64.198
-  port: 8119
-  cipher: aes-256-gcm
-  password: cdBIDV42DCwnfIN
-  udp: true
 - name: 🇨🇦 加拿大 (Canada) 39 - fldfh
   type: vmess
   server: 134.195.196.211
@@ -369,6 +381,43 @@ proxies:
   tls: false
   skip-cert-verify: true
 - name: 🇨🇦 加拿大 (Canada) 40 - fldfh
+  type: vmess
+  server: 23.162.200.198
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇨🇦 加拿大 (Canada) 41 - fldfh
+  type: ss
+  server: 149.22.95.183
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇨🇦 加拿大 (Canada) 42 - fldfh
+  type: vmess
+  server: 134.195.196.211
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇨🇦 加拿大 (Canada) 43 - fldfh
+  type: vmess
+  server: 134.195.196.211
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇨🇦 加拿大 (Canada) 44 - fldfh
   type: vmess
   server: 134.195.196.211
   port: 18000
@@ -423,6 +472,10 @@ proxy-groups:
   - 🇨🇦 加拿大 (Canada) 38 - fldfh
   - 🇨🇦 加拿大 (Canada) 39 - fldfh
   - 🇨🇦 加拿大 (Canada) 40 - fldfh
+  - 🇨🇦 加拿大 (Canada) 41 - fldfh
+  - 🇨🇦 加拿大 (Canada) 42 - fldfh
+  - 🇨🇦 加拿大 (Canada) 43 - fldfh
+  - 🇨🇦 加拿大 (Canada) 44 - fldfh
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -468,5 +521,9 @@ proxy-groups:
   - 🇨🇦 加拿大 (Canada) 38 - fldfh
   - 🇨🇦 加拿大 (Canada) 39 - fldfh
   - 🇨🇦 加拿大 (Canada) 40 - fldfh
+  - 🇨🇦 加拿大 (Canada) 41 - fldfh
+  - 🇨🇦 加拿大 (Canada) 42 - fldfh
+  - 🇨🇦 加拿大 (Canada) 43 - fldfh
+  - 🇨🇦 加拿大 (Canada) 44 - fldfh
 rules:
 - MATCH,PROXIES
