@@ -6,14 +6,22 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇿 CZ 01 - fldfh"
+        "🇱🇰 LK 01 - fldfh",
+        "🇱🇰 LK 02 - fldfh",
+        "🇱🇰 LK 03 - fldfh",
+        "🇱🇰 LK 04 - fldfh",
+        "🇱🇰 LK 05 - fldfh"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇿 CZ 01 - fldfh"
+        "🇱🇰 LK 01 - fldfh",
+        "🇱🇰 LK 02 - fldfh",
+        "🇱🇰 LK 03 - fldfh",
+        "🇱🇰 LK 04 - fldfh",
+        "🇱🇰 LK 05 - fldfh"
       ],
       "url": "https://www.google.com/generate_204"
     },
